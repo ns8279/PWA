@@ -23,6 +23,7 @@ module.exports = {
             {
               loader: 'file-loader',
               options: {
+                esModule: false,
 
                 name(file) {
                   return "[path][name].[ext]"
